@@ -96,5 +96,12 @@
     "evento": "Backup executado: /home/jonathas/securechain/backup/backup_20260618_201347.tar.gz.enc | tamanho: 4.0K",
     "hash_anterior": "db72332c58a93658da63ecc8e89e3f8937fb089700ee9481274936795e97299e",
     "hash_atual": "f5a77edcb62ddfd52cd36fc78792e085f65274259fe6a48481011fe97ffadca7"
+  },
+  {
+    "id": 15,
+    "timestamp": "2026-06-18T20:15:03.374499",
+    "evento": "Relatorio de auditoria do sistema gerado: auditoria_20260618_201503.txt",
+    "hash_anterior": "f5a77edcb62ddfd52cd36fc78792e085f65274259fe6a48481011fe97ffadca7",
+    "hash_atual": "cf624f4694455eeef03813414a25a5d0c4f5ab9b416219963ad13bf6594cc802"
   }
 ]

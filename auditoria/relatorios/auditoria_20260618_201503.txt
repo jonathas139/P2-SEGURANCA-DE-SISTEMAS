@@ -1,0 +1,60 @@
+RELATORIO DE AUDITORIA DO SISTEMA
+Gerado em: 2026-06-18T20:15:03.052013
+============================================================
+
+--- Usuarios conectados (who) ---
+jonathas seat0        2026-06-18 19:25 (:0)
+
+
+--- Historico de logins (last) ---
+jonathas                               Thu Jun 18 19:29 - still logged in
+jonathas tty7         :0               Thu Jun 18 19:25 - still logged in
+lightdm  tty7         :0               Thu Jun 18 19:24 - 19:25  (00:00)
+reboot   system boot  6.12.74+deb13+1- Thu Jun 18 19:23 - still running
+jonathas tty7         :0               Sun Apr 19 07:49 - 09:06  (01:16)
+lightdm  tty7         :0               Sun Apr 19 07:49 - 07:49  (00:00)
+reboot   system boot  6.12.74+deb13+1- Sun Apr 19 07:49 - 09:06  (01:16)
+lightdm  tty8         :1               Sat Apr 18 10:59 - crash 
+jonathas tty7         :0               Sat Apr 18 10:11 - 17:51  (07:40)
+lightdm  tty7         :0               Sat Apr 18 10:11 - 10:11  (00:00)
+reboot   system boot  6.12.74+deb13+1- Sat Apr 18 10:11 - 17:51  (07:40)
+lightdm  tty8         :1               Sat Apr 18 10:10 - 10:10  (00:00)
+root     pts/1                         Sat Apr 18 10:04 - 10:09  (00:05)
+root     pts/0                         Sat Apr 18 10:03 - 10:04  (00:00)
+jonathas tty7         :0               Sat Apr 18 10:00 - crash 
+lightdm  tty7         :0               Sat Apr 18 10:00 - 10:00  (00:00)
+reboot   system boot  6.12.74+deb13+1- Sat Apr 18 10:00 - crash 
+lightdm  tty8         :1               Wed Apr 15 21:44 - 21:47  (00:02)
+root     pts/1                         Wed Apr 15 21:29 - 21:33  (00:03)
+root     pts/0                         Wed Apr 15 21:15 - 21:15  (00:00)
+
+wtmpdb begins Wed Apr 15 21:15:02 2026
+
+
+--- Portas e servicos em escuta (ss -tulpn) ---
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:60013      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+udp   UNCONN 0      0               [::]:51557         [::]:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+tcp   LISTEN 0      511                *:80               *:*          
+
+
+--- Interfaces de rede (ip a) ---
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:1e:bf:fc brd ff:ff:ff:ff:ff:ff
+    altname enx0800271ebffc
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 83350sec preferred_lft 83350sec
+    inet6 fe80::a00:27ff:fe1e:bffc/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+
