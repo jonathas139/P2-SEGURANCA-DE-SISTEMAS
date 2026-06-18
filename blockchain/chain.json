@@ -54,5 +54,26 @@
     "evento": "Tentativa de login falhou: usuário 'naoexiste' não existe",
     "hash_anterior": "87113c0024c2b4cdefa095455ead7690b0b5cc4bed89202c9fbae41d68acf183",
     "hash_atual": "71395d34eed3537ba665ed403f29f25271dc84297897e366a4260f12c220827a"
+  },
+  {
+    "id": 9,
+    "timestamp": "2026-06-18T20:09:25.768351",
+    "evento": "Monitor inicializado: 0 arquivo(s) indexado(s)",
+    "hash_anterior": "71395d34eed3537ba665ed403f29f25271dc84297897e366a4260f12c220827a",
+    "hash_atual": "73bd8c5c622b67d2b9344021dbf805c23dfaa27fc1c0e54f644458580b4ef33d"
+  },
+  {
+    "id": 10,
+    "timestamp": "2026-06-18T20:09:25.775403",
+    "evento": "Monitor inicializado: 1 arquivo(s) indexado(s)",
+    "hash_anterior": "73bd8c5c622b67d2b9344021dbf805c23dfaa27fc1c0e54f644458580b4ef33d",
+    "hash_atual": "2a87632b6b924b61fbc75cbfe497e077a3ace252db2145e0fc95800174150de7"
+  },
+  {
+    "id": 11,
+    "timestamp": "2026-06-18T20:09:25.777081",
+    "evento": "Arquivo ALTERADO: teste.txt",
+    "hash_anterior": "2a87632b6b924b61fbc75cbfe497e077a3ace252db2145e0fc95800174150de7",
+    "hash_atual": "3f7e96ef58bf271120282615cbc706cc364e2db0b09513a1a582238c8233360a"
   }
 ]
