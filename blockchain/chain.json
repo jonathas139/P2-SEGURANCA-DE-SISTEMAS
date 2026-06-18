@@ -75,5 +75,26 @@
     "evento": "Arquivo ALTERADO: teste.txt",
     "hash_anterior": "2a87632b6b924b61fbc75cbfe497e077a3ace252db2145e0fc95800174150de7",
     "hash_atual": "3f7e96ef58bf271120282615cbc706cc364e2db0b09513a1a582238c8233360a"
+  },
+  {
+    "id": 12,
+    "timestamp": "2026-06-18T20:13:47.774803",
+    "evento": "Sistema iniciado",
+    "hash_anterior": "3f7e96ef58bf271120282615cbc706cc364e2db0b09513a1a582238c8233360a",
+    "hash_atual": "a4260c0b27db4ecc2cada840c67ebe81d411be6fe83fdbf6e885fc941c604f17"
+  },
+  {
+    "id": 13,
+    "timestamp": "2026-06-18T20:13:47.778138",
+    "evento": "Teste de registro de evento",
+    "hash_anterior": "a4260c0b27db4ecc2cada840c67ebe81d411be6fe83fdbf6e885fc941c604f17",
+    "hash_atual": "db72332c58a93658da63ecc8e89e3f8937fb089700ee9481274936795e97299e"
+  },
+  {
+    "id": 14,
+    "timestamp": "2026-06-18T20:13:47.813612",
+    "evento": "Backup executado: /home/jonathas/securechain/backup/backup_20260618_201347.tar.gz.enc | tamanho: 4.0K",
+    "hash_anterior": "db72332c58a93658da63ecc8e89e3f8937fb089700ee9481274936795e97299e",
+    "hash_atual": "f5a77edcb62ddfd52cd36fc78792e085f65274259fe6a48481011fe97ffadca7"
   }
 ]
