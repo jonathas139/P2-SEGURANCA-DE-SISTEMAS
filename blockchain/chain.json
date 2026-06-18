@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-06-18T19:42:04.455732",
+    "evento": "Sistema iniciado",
+    "hash_anterior": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash_atual": "ddc898565340616446e17945f2f9ac566ff0f8ef4e2125a7477b294c44bc2dc9"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-06-18T19:42:04.463208",
+    "evento": "Teste de registro de evento",
+    "hash_anterior": "ddc898565340616446e17945f2f9ac566ff0f8ef4e2125a7477b294c44bc2dc9",
+    "hash_atual": "462b11c71784a2e9849e83226aad9e7c451150f68be8f22f9fb925c27e025872"
+  }
+]
