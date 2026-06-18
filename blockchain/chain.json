@@ -12,5 +12,47 @@
     "evento": "Teste de registro de evento",
     "hash_anterior": "ddc898565340616446e17945f2f9ac566ff0f8ef4e2125a7477b294c44bc2dc9",
     "hash_atual": "462b11c71784a2e9849e83226aad9e7c451150f68be8f22f9fb925c27e025872"
+  },
+  {
+    "id": 3,
+    "timestamp": "2026-06-18T19:53:12.805555",
+    "evento": "Usuário criado: admin | perfil: admin",
+    "hash_anterior": "462b11c71784a2e9849e83226aad9e7c451150f68be8f22f9fb925c27e025872",
+    "hash_atual": "4fea5b598277e54c2044e1309c98f55dd1e92fc675770c4b4d58212be5b5dd3e"
+  },
+  {
+    "id": 4,
+    "timestamp": "2026-06-18T19:53:12.807717",
+    "evento": "Usuário criado: ana | perfil: analista",
+    "hash_anterior": "4fea5b598277e54c2044e1309c98f55dd1e92fc675770c4b4d58212be5b5dd3e",
+    "hash_atual": "d51a6a378315df876bd48211ace9fe4a96016b87993ed3ce4b783b992b3ed21c"
+  },
+  {
+    "id": 5,
+    "timestamp": "2026-06-18T19:53:12.809052",
+    "evento": "Usuário criado: visita | perfil: visitante",
+    "hash_anterior": "d51a6a378315df876bd48211ace9fe4a96016b87993ed3ce4b783b992b3ed21c",
+    "hash_atual": "1b57020618c6ce777e1f9afa8f2ff024b31d683dd0b3d4db727f5c10a0af2b2a"
+  },
+  {
+    "id": 6,
+    "timestamp": "2026-06-18T19:53:12.809643",
+    "evento": "Login realizado: admin | perfil: admin",
+    "hash_anterior": "1b57020618c6ce777e1f9afa8f2ff024b31d683dd0b3d4db727f5c10a0af2b2a",
+    "hash_atual": "4533907a2b173d81e69df8b944efcae51be05ea781a0848d74a39a44555f83d5"
+  },
+  {
+    "id": 7,
+    "timestamp": "2026-06-18T19:53:12.810190",
+    "evento": "Tentativa de login falhou: senha incorreta para 'ana'",
+    "hash_anterior": "4533907a2b173d81e69df8b944efcae51be05ea781a0848d74a39a44555f83d5",
+    "hash_atual": "87113c0024c2b4cdefa095455ead7690b0b5cc4bed89202c9fbae41d68acf183"
+  },
+  {
+    "id": 8,
+    "timestamp": "2026-06-18T19:53:12.810735",
+    "evento": "Tentativa de login falhou: usuário 'naoexiste' não existe",
+    "hash_anterior": "87113c0024c2b4cdefa095455ead7690b0b5cc4bed89202c9fbae41d68acf183",
+    "hash_atual": "71395d34eed3537ba665ed403f29f25271dc84297897e366a4260f12c220827a"
   }
 ]

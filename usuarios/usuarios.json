@@ -1,0 +1,17 @@
+{
+  "admin": {
+    "senha_hash": "b6ea40f6ac738c8d886235c4e005169c31c50d69deeddf6b8758a4ac2fbf8e8f",
+    "perfil": "admin",
+    "criado_em": "2026-06-18T19:53:12.792719"
+  },
+  "ana": {
+    "senha_hash": "ac45b9596685309c2cc68ff51a2c5b3871d8d1b17481189f2a44065f5dc60606",
+    "perfil": "analista",
+    "criado_em": "2026-06-18T19:53:12.806667"
+  },
+  "visita": {
+    "senha_hash": "0ff81c100006fb5e31fae3b128804c87d095daa61607f49330b93c901d6c0cf5",
+    "perfil": "visitante",
+    "criado_em": "2026-06-18T19:53:12.808576"
+  }
+}
