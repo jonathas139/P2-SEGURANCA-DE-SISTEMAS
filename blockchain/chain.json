@@ -2,7 +2,7 @@
   {
     "id": 1,
     "timestamp": "2026-06-18T19:42:04.455732",
-    "evento": "Sistema iniciado",
+    "evento": "aaaaaaaaaaaaaaaaa",
     "hash_anterior": "0000000000000000000000000000000000000000000000000000000000000000",
     "hash_atual": "ddc898565340616446e17945f2f9ac566ff0f8ef4e2125a7477b294c44bc2dc9"
   },
@@ -103,5 +103,89 @@
     "evento": "Relatorio de auditoria do sistema gerado: auditoria_20260618_201503.txt",
     "hash_anterior": "f5a77edcb62ddfd52cd36fc78792e085f65274259fe6a48481011fe97ffadca7",
     "hash_atual": "cf624f4694455eeef03813414a25a5d0c4f5ab9b416219963ad13bf6594cc802"
+  },
+  {
+    "id": 16,
+    "timestamp": "2026-06-20T12:22:35.588853",
+    "evento": "Sistema iniciado",
+    "hash_anterior": "cf624f4694455eeef03813414a25a5d0c4f5ab9b416219963ad13bf6594cc802",
+    "hash_atual": "dba8bb42f0bdcb9b858aedf24a030b0d3fbd988694639fd5e59dd1af1f986ad2"
+  },
+  {
+    "id": 17,
+    "timestamp": "2026-06-20T12:22:35.590623",
+    "evento": "Teste de registro de evento",
+    "hash_anterior": "dba8bb42f0bdcb9b858aedf24a030b0d3fbd988694639fd5e59dd1af1f986ad2",
+    "hash_atual": "92fce0062f617105361000b0da4de3778560689627b6a17890b24b494b9f3596"
+  },
+  {
+    "id": 18,
+    "timestamp": "2026-06-20T12:23:01.141972",
+    "evento": "Sistema iniciado",
+    "hash_anterior": "92fce0062f617105361000b0da4de3778560689627b6a17890b24b494b9f3596",
+    "hash_atual": "c0a07ff9531199faf8cb83db11d30b4397b5a84d1766ab65c90404b27a19f8c8"
+  },
+  {
+    "id": 19,
+    "timestamp": "2026-06-20T12:23:01.143164",
+    "evento": "Teste de registro de evento",
+    "hash_anterior": "c0a07ff9531199faf8cb83db11d30b4397b5a84d1766ab65c90404b27a19f8c8",
+    "hash_atual": "0ddbbe9d0a6030ee5ffbfbb124d56dda197116e24d5950bfdd76aebb191415f9"
+  },
+  {
+    "id": 20,
+    "timestamp": "2026-06-20T12:23:01.189093",
+    "evento": "Login realizado: admin | perfil: admin",
+    "hash_anterior": "0ddbbe9d0a6030ee5ffbfbb124d56dda197116e24d5950bfdd76aebb191415f9",
+    "hash_atual": "7fbdc6133a80f6592da118cce8e86bfab9809c4883c556056a3dd8a34b000a57"
+  },
+  {
+    "id": 21,
+    "timestamp": "2026-06-20T12:23:01.203135",
+    "evento": "Tentativa de login falhou: senha incorreta para 'ana'",
+    "hash_anterior": "7fbdc6133a80f6592da118cce8e86bfab9809c4883c556056a3dd8a34b000a57",
+    "hash_atual": "6fe93b00c50a777d97416afb61447b715e8fe6e9afda07c6c3b2d56af1d6370b"
+  },
+  {
+    "id": 22,
+    "timestamp": "2026-06-20T12:23:01.211343",
+    "evento": "Tentativa de login falhou: usuário 'naoexiste' não existe",
+    "hash_anterior": "6fe93b00c50a777d97416afb61447b715e8fe6e9afda07c6c3b2d56af1d6370b",
+    "hash_atual": "4f7bd895dface22d1b9bb3db3baee1ca91a4751c84012ff08cd5e5bca61152c7"
+  },
+  {
+    "id": 23,
+    "timestamp": "2026-06-20T12:23:01.264405",
+    "evento": "Monitor inicializado: 1 arquivo(s) indexado(s)",
+    "hash_anterior": "4f7bd895dface22d1b9bb3db3baee1ca91a4751c84012ff08cd5e5bca61152c7",
+    "hash_atual": "8096733b289ee3455d9f92b4806b689757db95f207348e218988e737b1081e3b"
+  },
+  {
+    "id": 24,
+    "timestamp": "2026-06-20T12:23:01.275246",
+    "evento": "Monitor inicializado: 1 arquivo(s) indexado(s)",
+    "hash_anterior": "8096733b289ee3455d9f92b4806b689757db95f207348e218988e737b1081e3b",
+    "hash_atual": "f021e3b99c503313e0a2d3345a40dbd41384ba0a67c237b9d00591d17eb49dbf"
+  },
+  {
+    "id": 25,
+    "timestamp": "2026-06-20T12:23:01.278912",
+    "evento": "Arquivo ALTERADO: teste.txt",
+    "hash_anterior": "f021e3b99c503313e0a2d3345a40dbd41384ba0a67c237b9d00591d17eb49dbf",
+    "hash_atual": "758d0ee42fb9f0769f2ea66a3ef30111f1fc4b31992bdd8a6bf5cc675dc738a7"
+  },
+  {
+    "id": 26,
+    "timestamp": "2026-06-20T12:23:01.537186",
+    "evento": "Relatorio de auditoria do sistema gerado: auditoria_20260620_122301.txt",
+    "hash_anterior": "758d0ee42fb9f0769f2ea66a3ef30111f1fc4b31992bdd8a6bf5cc675dc738a7",
+    "hash_atual": "22167f9330fe30e52613414a7c5bb00534983ceac3b4059788e6ca988a399e2c"
+  },
+  {
+    "id": 27,
+    "timestamp": "2026-06-20T12:27:17.872644",
+    "evento": "Backup executado: /home/vboxuser/Documents/P2-SEGURANCA-DE-SISTEMAS/P2-SEGURANCA-DE-SISTEMAS/backup/backup_20260620_122717.tar.gz.enc | tamanho: 4.0K",
+    "hash_anterior": "22167f9330fe30e52613414a7c5bb00534983ceac3b4059788e6ca988a399e2c",
+    "hash_atual": "7674dc03375206e97663c582bf16564093ef2a7c130f9f79f7f63f5f77eca5c6"
   }
 ]
