@@ -1,11 +1,12 @@
 #!/bin/bash
 
 DATA=$(date +%Y%m%d_%H%M%S)
-ORIGEM="$HOME/securechain/documentos"
-DESTINO="$HOME/securechain/backup"
+PROJETO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+ORIGEM="$PROJETO_DIR/documentos"
+DESTINO="$PROJETO_DIR/backup"
 ARQUIVO_TAR="$DESTINO/backup_$DATA.tar.gz"
 ARQUIVO_ENC="$ARQUIVO_TAR.enc"
-LOG="$HOME/securechain/logs/backup.log"
+LOG="$PROJETO_DIR/logs/backup.log"
 SENHA="securechain2025backup"
 
 echo "[BACKUP] Iniciando backup em $DATA"
@@ -36,7 +37,7 @@ echo "[BACKUP] Concluido: $ARQUIVO_ENC ($TAMANHO)"
 
 python3 "$HOME/securechain/blockchain/blockchain.py" 2>/dev/null
 
-cd "$HOME/securechain" && python3 -c "
+cd "$PROJETO_DIR" && python3 -c "
 import sys
 sys.path.insert(0, '.')
 from blockchain.blockchain import add_block
